@@ -1,22 +1,35 @@
 import { PersonalInfo, ExperienceItem, EducationItem, ProjectItem } from '../types/portfolio';
 
-// Generated asset paths matching the real project screenshots
-export const engineerAvatar = '/src/assets/images/avatar_engineer_1790794402188.jpg';
+// Import asset images so Vite bundles them into dist/assets for production
+import engineerAvatar from '../assets/images/avatar_engineer_1790794402188.jpg';
 
 // Vencia Dashboard UI screens (Apex Enterprise Vencia ERP v4)
-export const venciaDashboardUI = '/src/assets/images/vencia_dashboard_ui_1790796794828.jpg';
-export const venciaFinancialsUI = '/src/assets/images/vencia_financials_ui_1790796804617.jpg';
-export const venciaAnalyticsUI = '/src/assets/images/vencia_analytics_ui_1790796877693.jpg';
+import venciaDashboardUI from '../assets/images/vencia_dashboard_ui_1790796794828.jpg';
+import venciaFinancialsUI from '../assets/images/vencia_financials_ui_1790796804617.jpg';
+import venciaAnalyticsUI from '../assets/images/vencia_analytics_ui_1790796877693.jpg';
 
 // Dawarly UI screens (Job Matching Results, Candidate Profile, Landing)
-export const dawarlyMatchingUI = '/src/assets/images/dawarly_matching_ui_1790796815124.jpg';
-export const dawarlyProfileUI = '/src/assets/images/dawarly_profile_ui_1790796865395.jpg';
-export const dawarlyPlatformUI = '/src/assets/images/dawarly_ai_platform_1790794359636.jpg';
+import dawarlyMatchingUI from '../assets/images/dawarly_matching_ui_1790796815124.jpg';
+import dawarlyProfileUI from '../assets/images/dawarly_profile_ui_1790796865395.jpg';
+import dawarlyPlatformUI from '../assets/images/dawarly_ai_platform_1790794359636.jpg';
 
 // Ketabi Books UI screens (Our Shop Catalog, Bookstore Home, AI Assistant)
-export const ketabiShopUI = '/src/assets/images/ketabi_bookstore_ui_1790796824678.jpg';
-export const ketabiHomeUI = '/src/assets/images/ketabi_home_ui_1790796887450.jpg';
-export const ketabiAssistantUI = '/src/assets/images/ketabi_bookstore_ai_1790794374429.jpg';
+import ketabiShopUI from '../assets/images/ketabi_bookstore_ui_1790796824678.jpg';
+import ketabiHomeUI from '../assets/images/ketabi_home_ui_1790796887450.jpg';
+import ketabiAssistantUI from '../assets/images/ketabi_bookstore_ai_1790794374429.jpg';
+
+export {
+  engineerAvatar,
+  venciaDashboardUI,
+  venciaFinancialsUI,
+  venciaAnalyticsUI,
+  dawarlyMatchingUI,
+  dawarlyProfileUI,
+  dawarlyPlatformUI,
+  ketabiShopUI,
+  ketabiHomeUI,
+  ketabiAssistantUI,
+};
 
 export const personalInfo: PersonalInfo = {
   name: 'Abdelghafaar Nashaat',
